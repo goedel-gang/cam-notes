@@ -7,7 +7,7 @@ def mykey (x):
         return x[:-1] + "3"
     elif x[-1] == "L":
         return x[:-1] + "2"
-    else: 
+    else:
         return x[:-1] + "1"
 
 f = open("Makefile", "w")
